@@ -1,0 +1,13 @@
+{
+    "serialization_settings": {
+        "file": "/home/skult/tmp0"
+    },
+    "stat_requests": [
+        {
+            "id": 1142770959,
+            "type": "Route",
+            "from": "jOHzw50o0sx",
+            "to": "12YS9d834"
+        }
+    ]
+}

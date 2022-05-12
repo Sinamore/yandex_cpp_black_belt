@@ -1,0 +1,730 @@
+{
+    "serialization_settings": {
+        "file": "/home/skult/tmp0"
+    },
+    "routing_settings": {
+        "bus_wait_time": 764,
+        "bus_velocity": 141.0,
+        "pedestrian_velocity": 5
+    },
+    "render_settings": {
+        "width": 1200,
+        "height": 500,
+        "padding": 50,
+        "outer_margin": 200,
+        "stop_radius": 5,
+        "company_radius": 6,
+        "line_width": 14,
+        "company_line_width": 4,
+        "bus_label_font_size": 20,
+        "bus_label_offset": [
+            7,
+            15
+        ],
+        "stop_label_font_size": 18,
+        "stop_label_offset": [
+            7,
+            -3
+        ],
+        "underlayer_color": [
+            255,
+            255,
+            255,
+            0.85
+        ],
+        "underlayer_width": 3,
+        "color_palette": [
+            "green",
+            [
+                255,
+                160,
+                0
+            ],
+            "red"
+        ],
+        "layers": [
+            "bus_lines",
+            "bus_labels",
+            "stop_points"
+        ]
+    },
+    "base_requests": [
+        {
+            "type": "Bus",
+            "name": "4W6Meo",
+            "stops": [
+                "0g5OdYWoRood1Br0GSz",
+                "ra5n AWyFhj",
+                "jSR9AW4Jn",
+                "W",
+                "fh0kPGQJpX3zoNO8",
+                "NMv0vi9fCo8f",
+                "jOHzw50o0sx",
+                "1bcOb",
+                "Lv0B7tnNNWhDoZd2t",
+                "jOHzw50o0sx"
+            ],
+            "is_roundtrip": false
+        },
+        {
+            "type": "Bus",
+            "name": "7LtDv",
+            "stops": [
+                "2vke V9xjbCWPbnuGDnlGaKzh",
+                "Wap",
+                "hzNIcvHw7",
+                "2vke V9xjbCWPbnuGDnlGaKzh",
+                "Wap",
+                "2vke V9xjbCWPbnuGDnlGaKzh",
+                "Wap",
+                "hzNIcvHw7",
+                "ra5n AWyFhj",
+                "zawelN2wJsujTo"
+            ],
+            "is_roundtrip": false
+        },
+        {
+            "type": "Bus",
+            "name": "7phy5W0RmdbcUGkRc",
+            "stops": [
+                "1bcOb",
+                "RAc2q66nQ",
+                "1TH36jFeyeb E3yf4q13mF",
+                "jSR9AW4Jn",
+                "9vS2vn6mA8g1r9JWy",
+                "1TH36jFeyeb E3yf4q13mF",
+                "1bcOb",
+                "RAc2q66nQ",
+                "jSR9AW4Jn",
+                "fh0kPGQJpX3zoNO8"
+            ],
+            "is_roundtrip": false
+        },
+        {
+            "type": "Bus",
+            "name": "8j8 xMp7",
+            "stops": [
+                "1TH36jFeyeb E3yf4q13mF",
+                "vHoSyMSbY",
+                "Wap",
+                "jOHzw50o0sx",
+                "hzNIcvHw7"
+            ],
+            "is_roundtrip": false
+        },
+        {
+            "type": "Bus",
+            "name": "BLNPj59ovMc7CnWpeVrX",
+            "stops": [
+                "hzNIcvHw7",
+                "1TH36jFeyeb E3yf4q13mF",
+                "ra5n AWyFhj",
+                "fh0kPGQJpX3zoNO8",
+                "2vke V9xjbCWPbnuGDnlGaKzh",
+                "0",
+                "hzNIcvHw7"
+            ],
+            "is_roundtrip": true
+        },
+        {
+            "type": "Bus",
+            "name": "C",
+            "stops": [
+                "ra5n AWyFhj",
+                "1TH36jFeyeb E3yf4q13mF",
+                "W",
+                "vHoSyMSbY",
+                "fh0kPGQJpX3zoNO8",
+                "zawelN2wJsujTo",
+                "0",
+                "RAc2q66nQ",
+                "jSR9AW4Jn"
+            ],
+            "is_roundtrip": false
+        },
+        {
+            "type": "Bus",
+            "name": "OOCiFKDuN4kSffbPdm",
+            "stops": [
+                "fh0kPGQJpX3zoNO8",
+                "zawelN2wJsujTo",
+                "9vS2vn6mA8g1r9JWy",
+                "RAc2q66nQ",
+                "Lv0B7tnNNWhDoZd2t",
+                "2vke V9xjbCWPbnuGDnlGaKzh",
+                "Wap",
+                "0g5OdYWoRood1Br0GSz",
+                "Lv0B7tnNNWhDoZd2t",
+                "NMv0vi9fCo8f"
+            ],
+            "is_roundtrip": false
+        },
+        {
+            "type": "Bus",
+            "name": "Q4JNHw8mfaUqjPO5pGFokjbW",
+            "stops": [
+                "1TH36jFeyeb E3yf4q13mF",
+                "W",
+                "Lv0B7tnNNWhDoZd2t",
+                "hzNIcvHw7",
+                "FE2fs7iSlL4ec86TCU",
+                "Wap",
+                "FE2fs7iSlL4ec86TCU",
+                "jOHzw50o0sx",
+                "1TH36jFeyeb E3yf4q13mF"
+            ],
+            "is_roundtrip": true
+        },
+        {
+            "type": "Bus",
+            "name": "Q9xW0Gknkoaf8Tm6QTd",
+            "stops": [
+                "vHoSyMSbY",
+                "1TH36jFeyeb E3yf4q13mF",
+                "9vS2vn6mA8g1r9JWy",
+                "fh0kPGQJpX3zoNO8",
+                "0",
+                "0g5OdYWoRood1Br0GSz",
+                "Wap"
+            ],
+            "is_roundtrip": false
+        },
+        {
+            "type": "Bus",
+            "name": "QXGGXc6aN8p2lDY4m C4oe",
+            "stops": [
+                "FE2fs7iSlL4ec86TCU",
+                "2vke V9xjbCWPbnuGDnlGaKzh",
+                "1TH36jFeyeb E3yf4q13mF",
+                "W",
+                "Lv0B7tnNNWhDoZd2t",
+                "W"
+            ],
+            "is_roundtrip": false
+        },
+        {
+            "type": "Bus",
+            "name": "SzPwyJnn3xUZxh9O65",
+            "stops": [
+                "12YS9d834",
+                "fh0kPGQJpX3zoNO8",
+                "Lv0B7tnNNWhDoZd2t",
+                "hzNIcvHw7",
+                "9vS2vn6mA8g1r9JWy",
+                "Wap",
+                "RAc2q66nQ",
+                "1TH36jFeyeb E3yf4q13mF",
+                "jOHzw50o0sx",
+                "NMv0vi9fCo8f",
+                "12YS9d834"
+            ],
+            "is_roundtrip": true
+        },
+        {
+            "type": "Bus",
+            "name": "Tc1VrjT F",
+            "stops": [
+                "Wap",
+                "0g5OdYWoRood1Br0GSz",
+                "12YS9d834",
+                "1TH36jFeyeb E3yf4q13mF",
+                "Wap"
+            ],
+            "is_roundtrip": true
+        },
+        {
+            "type": "Bus",
+            "name": "TiD5dVXaZwx6r7rJ2",
+            "stops": [
+                "jSR9AW4Jn",
+                "12YS9d834",
+                "zawelN2wJsujTo",
+                "jOHzw50o0sx",
+                "zawelN2wJsujTo",
+                "W",
+                "Lv0B7tnNNWhDoZd2t",
+                "12YS9d834",
+                "jSR9AW4Jn",
+                "Lv0B7tnNNWhDoZd2t",
+                "jSR9AW4Jn"
+            ],
+            "is_roundtrip": true
+        },
+        {
+            "type": "Bus",
+            "name": "V5c3gqGFDSibf1vVM6eOI",
+            "stops": [
+                "jSR9AW4Jn",
+                "1bcOb",
+                "2vke V9xjbCWPbnuGDnlGaKzh",
+                "0",
+                "jOHzw50o0sx",
+                "12YS9d834",
+                "NMv0vi9fCo8f"
+            ],
+            "is_roundtrip": false
+        },
+        {
+            "type": "Bus",
+            "name": "XTtFGIFQCIC7Bny7",
+            "stops": [
+                "9vS2vn6mA8g1r9JWy",
+                "jSR9AW4Jn",
+                "ra5n AWyFhj",
+                "fh0kPGQJpX3zoNO8",
+                "12YS9d834",
+                "0",
+                "zawelN2wJsujTo",
+                "FE2fs7iSlL4ec86TCU",
+                "RAc2q66nQ",
+                "jSR9AW4Jn",
+                "9vS2vn6mA8g1r9JWy"
+            ],
+            "is_roundtrip": true
+        },
+        {
+            "type": "Bus",
+            "name": "Xp Yiimnhu2PxtBwaTxRzirs",
+            "stops": [
+                "1TH36jFeyeb E3yf4q13mF",
+                "vHoSyMSbY",
+                "RAc2q66nQ",
+                "vHoSyMSbY"
+            ],
+            "is_roundtrip": false
+        },
+        {
+            "type": "Bus",
+            "name": "gxTfETzm9ffR1DiENcZS",
+            "stops": [
+                "0g5OdYWoRood1Br0GSz",
+                "1TH36jFeyeb E3yf4q13mF",
+                "hzNIcvHw7",
+                "NMv0vi9fCo8f",
+                "jOHzw50o0sx",
+                "NMv0vi9fCo8f"
+            ],
+            "is_roundtrip": false
+        },
+        {
+            "type": "Bus",
+            "name": "hWYqHAz",
+            "stops": [
+                "hzNIcvHw7",
+                "1TH36jFeyeb E3yf4q13mF",
+                "Wap",
+                "hzNIcvHw7"
+            ],
+            "is_roundtrip": true
+        },
+        {
+            "type": "Bus",
+            "name": "oWAiBBBVcuZKTjDE",
+            "stops": [
+                "Wap",
+                "0",
+                "FE2fs7iSlL4ec86TCU"
+            ],
+            "is_roundtrip": false
+        },
+        {
+            "type": "Bus",
+            "name": "peMsAuCtV8PMw8DFwneM",
+            "stops": [
+                "Lv0B7tnNNWhDoZd2t",
+                "W",
+                "zawelN2wJsujTo",
+                "NMv0vi9fCo8f",
+                "jSR9AW4Jn",
+                "0",
+                "1bcOb",
+                "jOHzw50o0sx",
+                "Wap",
+                "FE2fs7iSlL4ec86TCU",
+                "W",
+                "Lv0B7tnNNWhDoZd2t"
+            ],
+            "is_roundtrip": true
+        },
+        {
+            "type": "Stop",
+            "name": "0",
+            "latitude": 1,
+            "longitude": 2,
+            "road_distances": {
+                "hzNIcvHw7":387487,
+                "W":913212,
+                "RAc2q66nQ":430279,
+                "FE2fs7iSlL4ec86TCU":961060,
+                "0g5OdYWoRood1Br0GSz":917756,
+                "jOHzw50o0sx":856205,
+                "zawelN2wJsujTo":857730,
+                "1bcOb":734718
+            }
+        },
+        {
+            "type": "Stop",
+            "name": "0g5OdYWoRood1Br0GSz",
+            "latitude": 3,
+            "longitude": 4,
+            "road_distances": {
+                "1TH36jFeyeb E3yf4q13mF":811598,
+                "Wap":763648,
+                "12YS9d834":769814,
+                "jSR9AW4Jn":930662,
+                "Lv0B7tnNNWhDoZd2t":996313,
+                "ra5n AWyFhj":925484
+            }
+        },
+        {
+            "type": "Stop",
+            "name": "12YS9d834",
+            "latitude": 5,
+            "longitude": 6,
+            "road_distances": {
+                "zawelN2wJsujTo":974258,
+                "1TH36jFeyeb E3yf4q13mF":697446,
+                "fh0kPGQJpX3zoNO8":668645,
+                "NMv0vi9fCo8f":895085,
+                "ra5n AWyFhj":160184,
+                "jSR9AW4Jn":877754,
+                "0":953477
+            }
+        },
+        {
+            "type": "Stop",
+            "name": "1TH36jFeyeb E3yf4q13mF",
+            "latitude": 7,
+            "longitude": 8,
+            "road_distances": {
+                "hzNIcvHw7":209629,
+                "W":836974,
+                "jSR9AW4Jn":512693,
+                "jOHzw50o0sx":949825,
+                "zawelN2wJsujTo":766341,
+                "1bcOb":477410,
+                "9vS2vn6mA8g1r9JWy":866375,
+                "Wap":936155,
+                "ra5n AWyFhj":903830,
+                "vHoSyMSbY":917171
+            }
+        },
+        {
+            "type": "Stop",
+            "name": "1bcOb",
+            "latitude": 9,
+            "longitude": 10,
+            "road_distances": {
+                "Lv0B7tnNNWhDoZd2t":199173,
+                "jOHzw50o0sx":726868,
+                "2vke V9xjbCWPbnuGDnlGaKzh":661925,
+                "RAc2q66nQ":640560,
+                "0":643305
+            }
+        },
+        {
+            "type": "Stop",
+            "name": "2vke V9xjbCWPbnuGDnlGaKzh",
+            "latitude": 11,
+            "longitude": 12,
+            "road_distances": {
+                "0":552776,
+                "1TH36jFeyeb E3yf4q13mF":576508,
+                "ra5n AWyFhj":947053,
+                "Wap":902458
+            }
+        },
+        {
+            "type": "Stop",
+            "name": "9vS2vn6mA8g1r9JWy",
+            "latitude": 13,
+            "longitude": 14,
+            "road_distances": {
+                "1TH36jFeyeb E3yf4q13mF":821692,
+                "NMv0vi9fCo8f":663105,
+                "Wap":591525,
+                "fh0kPGQJpX3zoNO8":513310,
+                "jSR9AW4Jn":997892,
+                "RAc2q66nQ":344355
+            }
+        },
+        {
+            "type": "Stop",
+            "name": "FE2fs7iSlL4ec86TCU",
+            "latitude": 15,
+            "longitude": 16,
+            "road_distances": {
+                "2vke V9xjbCWPbnuGDnlGaKzh":622099,
+                "W":811511,
+                "Wap":558136,
+                "1bcOb":728488,
+                "RAc2q66nQ":729274,
+                "jOHzw50o0sx":464678
+            }
+        },
+        {
+            "type": "Stop",
+            "name": "Lv0B7tnNNWhDoZd2t",
+            "latitude": 17,
+            "longitude": 18,
+            "road_distances": {
+                "NMv0vi9fCo8f":711301,
+                "jSR9AW4Jn":944127,
+                "2vke V9xjbCWPbnuGDnlGaKzh":785292,
+                "12YS9d834":966804,
+                "jOHzw50o0sx":873711,
+                "fh0kPGQJpX3zoNO8":417244,
+                "hzNIcvHw7":875420,
+                "W":994115
+            }
+        },
+        {
+            "type": "Stop",
+            "name": "NMv0vi9fCo8f",
+            "latitude": 19,
+            "longitude": 20,
+            "road_distances": {
+                "jOHzw50o0sx":880035,
+                "jSR9AW4Jn":734735,
+                "12YS9d834":969429,
+                "0g5OdYWoRood1Br0GSz":520525
+            }
+        },
+        {
+            "type": "Stop",
+            "name": "RAc2q66nQ",
+            "latitude": 21,
+            "longitude": 22,
+            "road_distances": {
+                "vHoSyMSbY":450493,
+                "Lv0B7tnNNWhDoZd2t":543433,
+                "12YS9d834":755306,
+                "1TH36jFeyeb E3yf4q13mF":779732,
+                "jSR9AW4Jn":522464
+            }
+        },
+        {
+            "type": "Stop",
+            "name": "W",
+            "latitude": 23,
+            "longitude": 24,
+            "road_distances": {
+                "fh0kPGQJpX3zoNO8":287637,
+                "vHoSyMSbY":465138,
+                "ra5n AWyFhj":611970,
+                "zawelN2wJsujTo":664244,
+                "Lv0B7tnNNWhDoZd2t":592857
+            }
+        },
+        {
+            "type": "Stop",
+            "name": "Wap",
+            "latitude": 25,
+            "longitude": 26,
+            "road_distances": {
+                "0g5OdYWoRood1Br0GSz":759869,
+                "12YS9d834":680910,
+                "hzNIcvHw7":297044,
+                "jOHzw50o0sx":695537,
+                "FE2fs7iSlL4ec86TCU":967725,
+                "2vke V9xjbCWPbnuGDnlGaKzh":653191,
+                "RAc2q66nQ":920880,
+                "0":394099
+            }
+        },
+        {
+            "type": "Stop",
+            "name": "fh0kPGQJpX3zoNO8",
+            "latitude": 27,
+            "longitude": 28,
+            "road_distances": {
+                "NMv0vi9fCo8f":594854,
+                "12YS9d834":778046,
+                "2vke V9xjbCWPbnuGDnlGaKzh":915466,
+                "zawelN2wJsujTo":663195,
+                "Lv0B7tnNNWhDoZd2t":470368,
+                "ra5n AWyFhj":176584,
+                "0":484401
+            }
+        },
+        {
+            "type": "Stop",
+            "name": "hzNIcvHw7",
+            "latitude": 29,
+            "longitude": 30,
+            "road_distances": {
+                "NMv0vi9fCo8f":324056,
+                "ra5n AWyFhj":648195,
+                "FE2fs7iSlL4ec86TCU":714143,
+                "9vS2vn6mA8g1r9JWy":433480,
+                "2vke V9xjbCWPbnuGDnlGaKzh":837893,
+                "RAc2q66nQ":393109,
+                "1TH36jFeyeb E3yf4q13mF":187224
+            }
+        },
+        {
+            "type": "Stop",
+            "name": "jOHzw50o0sx",
+            "latitude": 31,
+            "longitude": 32,
+            "road_distances": {
+                "Wap":825008,
+                "vHoSyMSbY":398873,
+                "NMv0vi9fCo8f":752859,
+                "1TH36jFeyeb E3yf4q13mF":551431,
+                "hzNIcvHw7":831103,
+                "zawelN2wJsujTo":926310,
+                "12YS9d834":889034,
+                "1bcOb":876666
+            }
+        },
+        {
+            "type": "Stop",
+            "name": "jSR9AW4Jn",
+            "latitude": 33,
+            "longitude": 34,
+            "road_distances": {
+                "Lv0B7tnNNWhDoZd2t":569763,
+                "ra5n AWyFhj":714311,
+                "9vS2vn6mA8g1r9JWy":948830,
+                "RAc2q66nQ":115459,
+                "0":426669,
+                "12YS9d834":950346,
+                "1bcOb":617199,
+                "fh0kPGQJpX3zoNO8":987462,
+                "W":781639
+            }
+        },
+        {
+            "type": "Stop",
+            "name": "ra5n AWyFhj",
+            "latitude": 35,
+            "longitude": 36,
+            "road_distances": {
+                "fh0kPGQJpX3zoNO8":705765,
+                "zawelN2wJsujTo":580569,
+                "1TH36jFeyeb E3yf4q13mF":893446,
+                "hzNIcvHw7":470906,
+                "jSR9AW4Jn":843457
+            }
+        },
+        {
+            "type": "Stop",
+            "name": "vHoSyMSbY",
+            "latitude": 37,
+            "longitude": 38,
+            "road_distances": {
+                "RAc2q66nQ":843559,
+                "0":347445,
+                "1TH36jFeyeb E3yf4q13mF":576656,
+                "Wap":783151,
+                "fh0kPGQJpX3zoNO8":556507
+            }
+        },
+        {
+            "type": "Stop",
+            "name": "zawelN2wJsujTo",
+            "latitude": 39,
+            "longitude": 40,
+            "road_distances": {
+                "FE2fs7iSlL4ec86TCU":999634,
+                "jOHzw50o0sx":987891,
+                "0":341898,
+                "W":713978,
+                "NMv0vi9fCo8f":846331,
+                "9vS2vn6mA8g1r9JWy":614011,
+                "2vke V9xjbCWPbnuGDnlGaKzh":413333
+            }
+        }
+    ],
+    "yellow_pages": {
+        "rubrics": {
+            "1": {
+                "name": "Сквер"
+            },
+            "2": {
+                "name": "Вокзал"
+            }
+        },
+        "companies": [
+            {
+                "names": [
+                    {
+                        "value": "Комсомольский"
+                    }
+                ],
+                "rubrics": [
+                    1
+                ],
+                "address": {
+                    "coords": {
+                        "lat": "43.585745",
+                        "lon": "39.716931"
+                    }
+                },
+                "nearby_stops": [
+                    {
+                        "name": "Ривьерский мост",
+                        "meters": 150
+                    }
+                ],
+                "working_time": {
+                    "intervals": [
+                        {
+                            "day": "MONDAY",
+                            "minutes_from": 600,
+                            "minutes_to": 1020
+                        },
+                        {
+                            "day": "WEDNESDAY",
+                            "minutes_from": 600,
+                            "minutes_to": 1020
+                        },
+                        {
+                            "day": "FRIDAY",
+                            "minutes_from": 600,
+                            "minutes_to": 1080
+                        }
+                    ]
+                }
+            },
+            {
+                "names": [
+                    {
+                        "value": "Кооперативный"
+                    }
+                ],
+                "rubrics": [
+                    1
+                ],
+                "address": {
+                    "coords": {
+                        "lat": "43.581303",
+                        "lon": "39.720118"
+                    }
+                },
+                "nearby_stops": [
+                    {
+                        "name": "Морской вокзал",
+                        "meters": 15
+                    }
+                ],
+                "working_time": {
+                    "intervals": [
+                        {
+                            "day": "TUESDAY",
+                            "minutes_from": 540,
+                            "minutes_to": 900
+                        },
+                        {
+                            "day": "THURSDAY",
+                            "minutes_from": 540,
+                            "minutes_to": 900
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+
+}

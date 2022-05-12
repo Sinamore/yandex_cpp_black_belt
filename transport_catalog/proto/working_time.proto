@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package YellowPages;
+
+message WorkingTimeInterval {
+  int32 minutes_from = 2;
+  int32 minutes_to = 3;
+}
+
+message WorkingTime {
+  bool is_everyday = 1;
+  repeated WorkingTimeInterval intervals = 2;
+}

@@ -1,0 +1,124 @@
+syntax = "proto3";
+
+import "database.proto";
+
+package TCatalog;
+
+message Bus {
+    string name = 1;
+    repeated string stops = 2;
+    bool is_round = 3;
+    int32 num_stops = 4;
+    int32 num_unique_stops = 5;
+    double geo_route_length = 6;
+    int32 map_route_length = 7;
+    double curvature = 8;
+}
+
+message Stop {
+    string name = 1;
+    double latitude = 2;
+    double longitude = 3;
+    double real_latitude = 4;
+    double real_longitude = 5;
+    double x = 6;
+    double y = 7;
+    map<string, int32> distances = 8;
+}
+
+message StopToBuses {
+    string stop = 1;
+    repeated string buses = 2;
+}
+
+message Point {
+    double x = 1;
+    double y = 2;
+}
+
+message Rgb {
+    int32 red = 1;
+    int32 green = 2;
+    int32 blue = 3;
+}
+
+message Rgba {
+    int32 red = 1;
+    int32 green = 2;
+    int32 blue = 3;
+    double alpha = 4;
+}
+
+message Color {
+    oneof color {
+        string s = 1;
+        Rgb rgb = 2;
+        Rgba rgba = 3;
+    }
+}
+
+message RenderSettings {
+    double width = 1;
+    double height = 2;
+    double padding = 3;
+    double stop_radius = 4;
+    double line_width = 5;
+    int32 stop_label_font_size = 6;
+    Point stop_label_offset = 7;
+    Color underlayer_color = 8;
+    double underlayer_width = 9;
+    repeated Color color_palette = 10;
+    int32 bus_label_font_size = 11;
+    Point bus_label_offset = 12;
+    repeated string layers = 13;
+    double outer_margin = 14;
+    double company_radius = 15;
+    double company_line_width = 16;
+}
+
+message MapSettings {
+    RenderSettings render_settings = 1;
+    double min_lon = 2;
+    double max_lat = 3;
+    double zoom_coef = 4;
+}
+
+message RouterSettings {
+    int32 bus_wait_time = 1;
+    double bus_velocity = 2;
+    double pedestrian_velocity = 3;
+}
+
+message Vertex {
+    string name = 1;
+    uint32 id = 2;
+}
+
+message EdgeInfo {
+    string name = 4;   
+    uint32 span = 5;
+}
+
+message Edge {
+    uint32 id_from = 1;
+    uint32 id_to = 2;
+    double w = 3;
+}
+
+
+message Graph {
+    repeated string vertices = 1;
+    repeated Edge edges = 2;
+    repeated EdgeInfo edges_info = 3;
+}
+
+
+message TransportCatalog {
+    map<string, Bus> buses = 1;
+    repeated Stop stops = 2;
+    repeated StopToBuses stb = 3;
+    MapSettings map_settings = 4;
+    RouterSettings router_settings = 5;
+    Graph graph = 6;
+    YellowPages.Database yellow_pages = 7;
+}
